@@ -1,2 +1,18 @@
 @import "tailwindcss";
 @config "../tailwind.config.js";
+
+.error-message {
+  @apply text-right text-xs font-normal text-primary-300;
+}
+
+.font-tital {
+  @apply text-base font-medium text-primary-200;
+}
+
+.input-base {
+  @apply mt-4 w-full h-12 rounded-lg p-2 border focus:outline-0 text-sm border-borderline-100 focus-visible:border-borderline-200 bg-primary-50;
+}
+
+.input-error {
+  @apply mt-4 w-full h-12 rounded-lg p-2 border focus:outline-0 text-sm border-borderline-300 focus-visible:border-borderline-300 bg-primary-50;
+}
