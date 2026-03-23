@@ -16,6 +16,19 @@ export default {
       }
     },
     extend: {
+      colors: {
+        primary: {
+        50: '#F5F5F5',
+        100: '#FAEAF2',
+        200: '#9C0053',
+        300: '#FE2525',
+        },
+        borderline: {
+          100: '#E1E1E1',
+          200: '#C38CA8',
+          300: '#FE2525',
+        }
+      },
     },
   },
   plugins: [],
